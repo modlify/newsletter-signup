@@ -1,36 +1,33 @@
-# Welcome to Remix + Vite!
+# Newsletter Signup with Modlify Webhooks
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+This is an example repository of how to use Modlify webhooks within a Remix application to create a newsletter signup form for your website.
 
-## Development
+Follow along with the video tutorial:
 
-Run the Vite dev server:
+<TODO>
 
-```shellscript
+Or read about it on our blog:
+
+<TODO>
+
+## How do I use this?
+
+### Clone this repository
+```sh
+git clone https://github.com/modlify/newsletter-signup.git
+```
+### Install dependencies
+```sh
+npm install
+```
+
+### Set environment variables
+Create a `.env` file at the root of the repository, containing the webhook URL you generated in [Modlify](https://app.modlify.io)
+```
+WEBHOOK_URL=https://webhooks.modlify.io/...
+```
+
+### Start the app
+```sh
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
