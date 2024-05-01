@@ -2,13 +2,7 @@
 
 This is an example repository of how to use Modlify webhooks within a Remix application to create a newsletter signup form for your website.
 
-Follow along with the video tutorial:
-
-<TODO>
-
-Or read about it on our blog:
-
-<TODO>
+[Read the full tutorial on our blog](https://www.modlify.io/news/blog/build-a-mailing-list-with-modlify-and-remix)
 
 ## How do I use this?
 
